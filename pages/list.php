@@ -69,7 +69,7 @@ try{
 			<td class="buttons">
 				<form name="inputs">
 					<input type="hidden" name="id" value="<?= $product->getId() ?>" />
-					<button formaction="update.php" formmethod="post" name="action" value="update">更新</button>
+					<button formaction="update.php" formmethod="get" name="action" value="update">更新</button>
 					<button formaction="confirm.php" formmethod="get" name="action" value="delete">削除</button>
 				</form>
 			</td>
